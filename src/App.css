@@ -1,0 +1,165 @@
+.container{
+  background-color: rgb(6, 6, 74);
+  width: 700px;
+border-radius: 60px ;
+border-color: gold;
+}
+
+
+.button {
+  
+  border-color: black;
+  color: rgb(30, 29, 29);
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;}
+
+  .white {background-color: rgb(230, 52, 21);
+    border-radius: 12px;}
+    .active{
+      background-color:black;
+      border-color:white;
+      color:white;
+      border-radius: 12px;
+      padding: 20px;
+      font-weight: bolder;
+      
+    }
+    .active2{
+      background-color:black;
+      border-color:white;
+      color:white;
+      border-radius: 12px;
+      padding: 20px;
+      font-weight: bolder;
+      }
+      .active3{
+        background-color:black;
+        border-color:white;
+        color:white;
+        border-radius: 12px;
+        padding: 20px;
+        font-weight: bolder;
+      }
+      .active4{
+        background-color:black;
+        border-color:white;
+        color:white;
+        border-radius: 12px;
+        padding: 20px;
+        font-weight: bolder;
+      }
+   .blue { background-color: slateblue;
+     border-radius: 12px;}
+     .blue:hover{
+       background-color: blue ;
+       border-color: gold;
+      color: gold;
+     }
+   .green {background-color:green ;
+     border-radius: 12px;}
+     .green:hover{
+       background-color: darkgreen;
+       border-color: gold;
+      color: gold;
+     }
+  .power1{background-color: #94dfee;
+    border-radius: 12px;}
+  .power1:hover{
+    background-color: #3e9db8;
+    border-color: gold;
+    color: darkblue;
+  }  
+    .power2{background-color: #94dfee;
+      border-radius: 12px;}
+      .power2:hover{
+        background-color: #3e9db8;
+        border-color: gold;
+        color: darkblue;
+      }  
+      .power3{background-color: #94dfee;
+        border-radius: 12px;}
+        .power3:hover{
+          background-color: #3e9db8;
+          border-color: gold;
+          color: darkblue;
+        }  
+        .basic{background-color: #94dfee;
+          border-radius: 12px;}
+        .basic:hover{
+          background-color: #3e9db8;
+          border-color: gold;
+          color: darkblue;
+        }
+          .sport{background-color:#94dfee ;
+            border-radius: 12px;}
+          .sport:hover{
+            background-color: #3e9db8;
+            border-color: gold;
+            color: darkblue;
+          }
+            .lux{background-color: #94dfee;
+              border-radius: 12px;}
+            .lux:hover{
+              background-color: #3e9db8;
+              border-color: gold;
+              color: darkblue;
+            }
+            .activeBtn {
+              background-color: #4CAF50;
+              border: none;
+              color: white;
+              text-align: center;
+              text-decoration: none;
+              font-size: 16px;
+              transition-duration: 0.2s;
+              cursor: pointer;
+              height: 40px;
+              margin-top: 10px;
+              margin-bottom: 10px;
+              margin-left: 10px;
+              border-top-left-radius: 6px;
+              border-bottom-left-radius: 6px;
+              width: 160px;
+            }
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
